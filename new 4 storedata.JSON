@@ -1,0 +1,24 @@
+{
+  "donations": [
+    {
+      "id": "1",
+      "donor_name": "John Doe",
+      "email": "johndoe@example.com",
+      "amount": 50,
+      "currency": "USD",
+      "payment_method": "PayPal",
+      "transaction_id": "PAY123456",
+      "date": "2025-03-24T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "donor_name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "amount": 25,
+      "currency": "USD",
+      "payment_method": "Stripe",
+      "transaction_id": "STRIPE987654",
+      "date": "2025-03-24T12:05:00Z"
+    }
+  ]
+}

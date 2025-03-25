@@ -6,6 +6,16 @@
     <title>Donate to Save Lives</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <style>
+        body {
+            background-color: brown;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,6 +37,15 @@
     </main>
     
     <button id="chat-button">Chat with Us</button>
+    
+    <div id="chat-container" class="hidden">
+        <div id="chat-box">
+            <p>Welcome to live chat! How can we help?</p>
+            <input type="text" id="chat-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    
     <script src="chat.js" defer></script>
 </body>
 </html>

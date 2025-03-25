@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 20px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.donation {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc5500;
+}
+
+#chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0084ff;
+}
+
+#chat-container {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background: white;
+    width: 300px;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}

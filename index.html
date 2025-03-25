@@ -6,16 +6,7 @@
     <title>Donate to Save Lives</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    <style>
-        body {
-            background-color: brown;
-            color: white;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            font-family: Arial, sans-serif;
-        }
-    </style>
+    <script src="chat.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,6 +22,7 @@
         <section class="donation">
             <h2>Make a Donation</h2>
             <button onclick="donatePaypal()">Donate via PayPal</button>
+            <button onclick="donateCreditCard()">Donate via Credit Card</button>
             <button onclick="donateCrypto()">Donate via Bitcoin</button>
             <p>We accept credit card payments through PayPal.</p>
         </section>
@@ -45,7 +37,5 @@
             <button onclick="sendMessage()">Send</button>
         </div>
     </div>
-    
-    <script src="chat.js" defer></script>
 </body>
 </html>
